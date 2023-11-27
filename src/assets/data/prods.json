@@ -1,0 +1,165 @@
+[
+    {
+        "id":1,
+        "imagePath":"https://i.pinimg.com/736x/6c/a3/88/6ca38879ba8c782c6e614906151c392f--vases-for-sale-blue-vases.jpg",
+        "name":"Blue ceramic vase",
+        "rating":4.7,
+        "price":"5000 ",
+        "roomtype":"living room / study room /bedroom",
+        "type":"ceramic",
+        "size":"medium",
+        "desc":"Blue vase made of ceramic gives an ultimate look for your table or stand",
+        "fulldesc":"The blue ceramic vase is a classical illustration of how a dame blossoms from her daily struggles and hustling. A woman's life is seldom a bed of roses, as the vase's unusual sculpture depicts. Flowers are a representation of a lady's pure heart. The color blue signifies the calmness that a lady obtains from her everyday activities.",
+        "reviews":[
+            {
+              "custname":"Nayan",
+              "review":"Definitely good"
+            },{
+                "custname":"Girish",
+                "review": "Good"
+            }]
+    },
+    {
+        "id":2,
+        "imagePath":"https://homesfeed.com/wp-content/uploads/2015/12/amazing-coccon-shaped-unusual-table-lamp-design-with-sparkling-decoration-on-wooden-table.jpg",
+        "name":"Table mini lamp",
+        "rating":4.5,
+        "price":"4000 ",
+        "roomtype":"living room / study room /bedroom/dining table",
+        "type":"table lamp",
+        "size":"small",
+        "fulldesc":"Lamp bulbs and various parts of lamps are no exception. Therefore, while the design of a lamp is very important when choosing a lamp for any room, you also want to consider the type of lightbulb and hence the type of light it gives off.Perhaps you like all your home lighting to have a particular type of bulb or light. Or, perhaps you don’t really care as much about the light as you do the design of the lamp. The goal is getting both the perfect lamp design and lighting",
+        "desc":"Table lamp with design gives sparkling decoration for your table,can be used for decorating or for the dining table",
+        "reviews":[
+            {
+            "custname":"Nayan",
+            "review":"Definitely good"
+            },
+            {
+                "custname":"Girish",
+                "review": "Good"
+            }]
+    },
+    {
+        "id":3,
+        "imagePath":"https://i.pinimg.com/originals/12/42/e5/1242e5fb16b01bd1484f8a0fa11885da.png",
+        "name":"Wall decor",
+        "rating":4.6,
+        "price":"1000 ",
+        "roomtype":"living room / study room /bedroom",
+        "type":"Bamboo",
+        "size":"small-medium",
+        "fulldesc":"Home feels like home if only it is taken care of. So, you can do such honor to your interior with inviting wall decor ideas that will never go unnoticeable. With time, there have evolved countless designs of bedroom wall decor items, which can add stars to the home. From getting into stepping out, every wall can show …",
+        "desc": "Simple wall decor gives an antique touch to the wall allows you to place any wall hangings",
+        "reviews":[
+            {
+            "custname":"Nayan",
+            "review":"Definitely good"
+            },
+            { "custname":"Girish","review":"Good"}
+            ]
+    },
+    {
+        "id":4,
+        "imagePath":"https://m.media-amazon.com/images/I/61bOqUZRSPL._AC_UF1000,1000_QL80_.jpg",
+        "name":"Wall paintings",
+        "rating":4.6,
+        "price":"3000 ",
+        "roomtype":"living room / study room /bedroom",
+        "type":"abstract",
+        "size":"medium",
+        "desc":"Wall paintings or wall arts give an ultimate look to the walls of your house and also gives an amazing perspective to a viewer",
+        "fulldesc":"When selecting wall painting for living room, acquire larger and bolder pieces, especially if you're freshening up a vast blank wall. Use it with other showpieces to create a dynamic appearance. A museum-style arrangement of smaller items works well for walls broken up by windows or doors.",
+        "reviews":[
+            {
+            "custname":"Nayan",
+            "review":"Definitely good"
+            },{
+                "custname":"Girish",
+                "review": "Good"
+            }]
+    },
+    {
+        "id":5,
+        "imagePath":"https://www.royhomedesign.com/wp-content/uploads/2017/10/Art-Van-Outdoor-Furniture-Covers.jpeg",
+        "name":"Art Van Outdoor Furniture",
+        "rating":4.8,
+        "roomtype":"living room / study room",
+        "type":"Art van",
+        "size":"medium",
+        "price": "30999 ",
+        "fulldesc":"Art Van Furniture Inc. was an American furniture retail store chain, with stores across the Midwestern United States. Founded in 1959, the company was headquartered in Warren, Michigan, and claimed to be the largest furniture retailer in the Midwest at its peak. In 2020, the company filed for bankruptcy and closed all of its stores.",
+        "desc":"Art Van outdoor furniture which can be kept in lawn or any spacious space in or out of the house",
+        "reviews":[
+            {
+            
+            "review":"Definitely good"
+            },{
+                "custname":"Girish",
+                "review": "Good"
+            }]
+    
+    },
+    {
+        "id":6,
+        "imagePath":"https://th.bing.com/th/id/OIP.Src7cyjFWvYalLTNWO54gwHaHe?pid=ImgDet&w=474&h=478&rs=1",
+        "name":"Ratten Furniture",
+        "roomtype":"anywhere",
+        "type":"Ratten",
+        "size":"medium",
+        "rating":4.3,
+        "fulldesc":"Rattan furniture is made from the plant material known as rattan, typically using a wicker weave method12345. Rattan is a fibrous vine that grows in tropical climates like those in parts of Australia, Asia, and Africa3. It is part of the palm family and is naturally waterproof and resistant to fading5. Rattan furniture is classic and on-trend, so it’s a popular choice for both indoor and outdoor furniture5. It is typically more expensive than wicker furniture and has a more formal appearance",
+        "price": "10999 " ,
+        "desc":"Ratten furniture can be kept at any space in the house",
+        "reviews":[
+            {
+            "custname":"Nayan",
+            "review":"Definitely good"
+            },
+            {
+                "custname":"Girish",
+                "review": "Good"
+            }]
+    },
+    {
+        "id":7,
+        "imagePath":"https://th.bing.com/th/id/R.3851e795b86658d13d1ee5e9c53bf83e?rik=6LjLiwsf6SNX%2bQ&riu=http%3a%2f%2fjsdecor.co.uk%2fwp-content%2fuploads%2f2019%2f02%2fIMG_4465.jpg&ehk=RIlSPxQsuRqKdMMrVUSMI9faWhx%2bSkALjf7ABFkLUGk%3d&risl=&pid=ImgRaw&r=0",
+        "name":"Hand Painted mahogany",
+        "rating":4.3,
+        "price": "4000 " ,
+        "roomtype":"living room / study room/bedroom",
+        "type":"mahogany",
+        "size":"large",
+        "fulldesc":"Hand painted wood graining (Faux Bois) can be applied in architecture to most any surface for various reasons. A project’s budget can be refined by implementing hand painted Faux Bois where possible. Having a craftsman paint Faux Bois avoids milling, shipping and handling costs of such a heavy product. That same craftsman can also make an exact match to the color of adjacent wood species if need be, optimal when the rarity of a particular species may be in play. Structural limitations can also contribute to the wise choice of painting wood grain in architecture, on furniture or on pedestals. Weight load limitations and intricacies of architectural decoration can be surmounted with a painted surface as an alternative. Overall installation time can be more swift with hand painted mimicry such as this and more importantly, the choice to hand paint wood surfaces can assist in limiting the overall ecological impact of any construction project.",
+        "desc": "The hand painted mahogany is a furniture that can be kept in any corner of your house",
+        "reviews":[
+            {
+            "custname":"Nayan",
+            "review":"Definitely good"
+            },{
+                "custname":"Girish",
+                "review": "Good"
+            }]
+    },
+    {
+        "id":8,
+        "imagePath":"https://i5.walmartimages.com/asr/dd1feb8e-cadc-4dea-8605-36b2e388f499.e236d560ce3a7b48b213bbb13ed8789e.jpeg",
+        "name":"Dining Table",
+        "rating":4,
+        "price": "17949 " ,
+        "roomtype":"Dining room",
+        "type":"Art van",
+        "size":"medium",
+        "fulldesc":"Rectangular-shaped dining tables are the most popular types of dining tables. This dining table is fitting for a large type of family as it can be extended indefinitely. Rectangle dining tables are also best suited to long and narrow rooms. Furniture Dining Tables & Sets Your dining experience can be enhanced by the table and tableware you use.",
+        "desc":"An indoor or outdoor dining is the furniture which can be kept in or out of your house to have a peaceful dinner",
+        "reviews":[
+            {
+            "custname":"Nayan",
+            "review":"Definitely good"
+            },
+            {
+                "custname":"Girish",
+                "review": "Good"
+            }]
+    }
+]

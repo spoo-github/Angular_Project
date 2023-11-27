@@ -1,0 +1,61 @@
+<div class="header-container">
+    <div class="navs">
+     <span class="logo" (click)="goToHome()">FineHomeCare</span>
+     <div class="spacer">
+      <!--<li><app-search (searchTextChanged)="onSearchTextEntered($event)"></app-search></li>-->
+     <li><a [routerLink]="['/allprods']">Home Decors and Furnitures</a></li> 
+     <li><a (click)="ToCart()">
+        <mat-icon matBadge="{{totalItemNumber}}" matBadgeColor="warn"  aria-hidden="false">shopping_cart</mat-icon>
+    </a></li>
+     <li><a (click)="logout()">Logout</a></li>
+    </div>
+    </div>
+ </div>
+
+<div class="container"> <ng-container *ngIf="products.length!== 0">
+    <div class="card-table">
+        <div class="card-product">
+            <table>
+                <tr>
+                    <th>Sl.No</th>
+                    <th>Product Name</th>
+                    <th>Product Image</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                    <th>Action</th>
+                </tr>
+            
+                <tr  *ngFor="let item of products,let i=index">
+                    <td>{{i+1}}</td>
+                    <td>{{item.name}}</td>
+                    <td><img src="{{item.imagePath}}" style="width: 120px;" alt=""></td>
+                    <td>{{item.desc}}</td>
+                    <td>{{item.price}}</td>
+                    <td>{{item.quantity}}</td>
+                    <td>{{item.total}}</td>
+                    <td><button (click)="removeProduct(item)"><mat-icon>clear</mat-icon></button></td>
+                </tr>
+            </table>
+            <div class="totcontainer">
+                <ng-container *ngIf="products.length !== 0">
+                  <!-- ... your cart items ... -->
+                  <div>Total: {{ total  | currency: 'Rs  ' }}</div>
+                </ng-container>
+              </div>              
+        </div>
+    </div>
+ </ng-container></div>
+<ng-container *ngIf="products.length === 0">
+ <div class="cart-container">
+    <mat-card>
+        <h4 id="H4">My Cart</h4>
+    </mat-card>
+    <div class="center">
+        <img src="https://cdni.iconscout.com/illustration/premium/thumb/empty-cart-2130356-1800917.png" alt="">
+        <h4>Your Cart is empty! Add items</h4>
+        <button class="btn" [routerLink]="['/allprods']">Shop Now</button>
+    </div>
+ </div>
+</ng-container>

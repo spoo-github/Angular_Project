@@ -1,0 +1,88 @@
+h1{
+     margin-bottom: 60px;
+    font-size: 30px;
+    color:#0E197D;
+    font-weight: bolder;
+   /* display: flex;*/
+    margin-left: 0px;
+    text-align: center;
+    margin-top: 180px;
+    width: 100%;
+    font-family: 'Creepster',cursive;
+
+}
+.home-container{
+
+    display: flex;
+    position: sticky;
+    /* justify-content: space-between;
+   align-items: center;*/
+    flex-wrap: wrap;
+   
+}
+img{
+  --s: 250px;   /* the size of the image */
+  --b: 8px;     /* the border thickness*/
+  --g: 14px;    /* the gap */
+  --c: #FFDB01; /* the color */
+  
+  width: var(--s);
+  aspect-ratio: 1;
+  outline: calc(var(--s)/2) solid #0009;
+  outline-offset: calc(var(--s)/-2);
+  cursor: pointer;
+  transition: .3s;
+}
+img:hover {
+  outline: var(--b) solid var(--c);
+  outline-offset: var(--g);
+}
+
+img + img {
+  border-radius: 50%;
+}
+
+img{
+    height: 300px;
+    width: 300px;
+   /* justify-content: space-between;*/
+    position: static;
+   flex: 0 50%;
+  /*demo*/
+  border: #0E197D solid 1px;
+  box-sizing:border-box;
+}
+mat-card{
+    margin:30px;
+    box-shadow: 5px 5px 5px 5px #383838;
+    border: #0E197D solid 1px;
+    height: 450px;
+}
+.name{
+    text-align: center;
+    margin-top: 30px;
+}
+.rating{
+    text-align: center; 
+}
+button{
+background-color: #0E197D;
+    box-shadow: 5px 5px 5px #383838;
+    padding: 8px;
+    color: #FFDB01;
+    border-radius: 3px;
+    width: 30%;
+    margin-left: 100px;
+}
+.price{
+  text-align: center;
+    margin-top: 3px;
+    margin-bottom: 6px;
+}
+
+
+
+
+
+
+

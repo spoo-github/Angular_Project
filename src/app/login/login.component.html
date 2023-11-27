@@ -1,0 +1,31 @@
+<div class="login-container">
+    <img class="main" src="assets/main.png">
+    <img class="secmain" src="assets/secmain.jpg">
+    <img class="thmain" src="assets/thmain.jpg">
+    <div class="logo">FineHomeCare</div>
+    <div class="desc">
+        FineHomeCare is a website that allows you to view the necessary home products and also buy them,
+        This website allows you to turn the house into home.
+        Definitely provides most of the necessities to you at your doorstep.
+    </div>
+</div>
+<div class="login-form">
+    <h2>Aleady a user? Login</h2>
+    <form (ngSubmit)="submit()">
+        <label>Email</label><br>
+        <mat-form-field class="center">
+            <input matInput placeholder="Email" [(ngModel)]="email" name="email" required/>
+            <!-- Use ngModel for two-way data binding -->
+        </mat-form-field >
+        <br>
+        <label>Password</label><br>
+        <mat-form-field class="center">
+            <input matInput placeholder="Password" [(ngModel)]="password" name="password" type="password" required/>
+        </mat-form-field>
+        <div class="center margin-top">
+            <button class="btn" type="submit">Login</button>
+        </div>
+        <br>
+        <span class="center">New to our platform?<a [routerLink]="['/sign-up']" >Sign Up!</a></span>
+    </form>
+</div>

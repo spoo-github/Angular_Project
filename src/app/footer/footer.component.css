@@ -1,0 +1,63 @@
+/* Style for the footer container */
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0E197D;
+    color: #fff;
+    padding: 20px;
+    margin-top: 50px;
+    height: 300px;
+    width: 100%;
+  }
+  
+  /* Style for each column */
+  .column {
+    flex: 1;
+    padding: 20px;
+    font-family: 'Creepster',cursive;
+  }
+  
+  /* Style for location section */
+  .loc {
+    font-size: 18px;
+    font-family: 'Creepster',cursive;
+  }
+  
+  /* Style for contact section */
+  .cont {
+    font-size: 18px;
+  }
+  
+  /* Style for links section */
+  .links {
+    font-size: 18px;
+    text-align: right;
+    margin-right: 20px;
+  }
+  
+  /* Style for icons */
+  mat-icon {
+    font-size: 24px;
+    margin-right: 5px;
+    color: #FFDB01; /* Icon color */
+  }
+  
+  /* Style for phone and email links */
+  h4 {
+    margin: 5px 0;
+    font-family:'Creepster',cursive;
+  }
+  
+  
+  /* Add a border to separate columns selects element that are not the last child of their parent */
+  .column:not(:last-child) {
+    border-right: 1px solid #FFDB01;
+  }
+
+  a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #FFDB01;
+  }

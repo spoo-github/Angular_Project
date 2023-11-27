@@ -1,0 +1,5 @@
+<mat-icon
+*ngFor= "let icon of maxRatingArr; let index=index"
+[ngClass]="{checked:SelectedStar>index,'readonly':readonly}">star</mat-icon>
+
+

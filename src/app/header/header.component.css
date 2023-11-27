@@ -1,0 +1,104 @@
+
+a{
+    list-style-type: none;
+    justify-content: space-between;
+    font-family: 'Creepster',cursive;
+    cursor: pointer;
+    text-decoration: none;
+}
+.spacer{
+   
+   cursor: pointer;
+   text-align: right;
+   background: #0E197D;
+   padding: 10px 30px;
+   border-bottom-left-radius: 18px;
+}
+/*mat-toolbar{
+    background-color: #0E197D ;
+    color:#FFDB01;
+}*/
+
+.logo{
+    font-weight: bold;
+    font-family: 'Creepster',cursive;
+    letter-spacing: 4px;
+    cursor: pointer;
+    color:#FFDB01;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+    z-index: 1;
+}
+.navs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    list-style-type: none;
+}
+.spacer li{
+    display: inline-block;
+    padding: 10px 25px;
+}
+.spacer li a {
+    color: #FFDB01;
+    cursor: pointer;
+}
+.left-sidebar{
+  width: 20%;
+  height: 600px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #0E197D;
+}
+
+.row{
+    padding: 0 10%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 5%;
+    font-family: 'Creepster',cursive;
+
+}
+.left-col{
+    flex-basis: 40%;
+    
+}
+.right-col{
+    flex-basis: 55%;
+    letter-spacing: 2px;
+}
+.left-col img{
+    width: 80%;
+    cursor: pointer;
+    height: 55%;
+}
+.right-col h1{
+    font-size: 55px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: 'Creepster',cursive;
+}
+.right-col p{
+    color:#0E197D;
+    margin: 50px 0 70px;
+    font-size: 20px;
+}
+#H{
+    margin-bottom: 28px;
+}
+button{
+    background-color:#FFDB01;
+    color: #0E197D ;
+    width: 100%;
+
+}
+.user{
+    width: 100%;
+    border-radius: 5px;
+    font-family: 'Creepster',cursive;
+}

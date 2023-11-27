@@ -1,0 +1,34 @@
+<app-header></app-header>
+<h1 class="head">Our Products</h1>
+    <div class="home-container">
+            <div class="products" *ngFor="let products of Products">
+                <mat-card>
+                <div class="prodimgs" (click)="ToProdDet('products',products.id)">
+                    <img [src]="products.imagePath" alt="" >
+                </div>
+                <div class="name" (click)="ToProdDet('products',products.id)">
+                      {{products.name}}
+                </div>
+                <div class="price" >
+                    Rs. {{products.price}} 
+                </div>
+                
+                <div class="cartbtn">
+                    <button class="ctbtn" [routerLink]="['/cart']" (click)="addtoCart(products)">Add to Cart</button>
+                </div>
+                </mat-card>
+            </div>
+    </div>
+    
+<app-footer></app-footer>
+   <!-- height="250px" width="350px"
+(onRating)="Handle($event)"
+-->
+           
+                
+    
+       
+  
+
+
+

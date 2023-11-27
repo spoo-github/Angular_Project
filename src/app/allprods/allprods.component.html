@@ -1,0 +1,58 @@
+<div class="header-container">
+    <div class="navs">
+     <span class="logo" (click)="goToHome()">FineHomeCare</span>
+     <div class="spacer">
+      <li><app-search (searchTextChanged)="onSearchTextEntered($event)" ></app-search></li>
+     <li><a [routerLink]="['/allprods']">Home Decors and Furnitures</a></li> 
+     <li><a  (click)="ToCart()"><mat-icon  matBadge="{{totalItemNumber}}" matBadgeColor="warn">shopping_cart</mat-icon></a></li>
+     <li><a (click)="logout()">Logout</a></li>
+    </div>
+    </div>
+ </div>
+ <div class="sort-container">
+  <label for="sortSelect">Select Order</label>
+  <select id="sortSelect" #sortSelect (change)="sortProducts(sortSelect.value)">
+   <option value="none" selected>Select Order</option>
+   <option value="priceAsc" >Price(low to high)</option>
+   <option value="priceDesc">Price(high to low)</option>
+  </select>
+ 
+
+</div>
+
+  <div class="filter-container">
+     <label for="categorySelect">Filter by Category:</label>
+     <select id="categorySelect" #categorySelect [(ngModel)]="selectedCategories" (change)="filterProducts()">
+       <option value="" selected="selected">All</option>
+       <option *ngFor="let category of ProductsCategories" [value]="category">{{ category }}</option>
+     </select>
+ </div>
+
+
+ <div class="home-container">
+    <!--(click)="ToProdDet('products',products.id)"    (onRating)="onRatingChange($event)"   (onRating)="Handle($event)"    *ngFor="let products of Products "-->
+
+      
+<div class="products" *ngFor="let products of filteredProducts">
+    <!--<div class="condition" *ngIf="searchText === ''|| products.name.toLowerCase().includes(searchText)"></div>-->
+        <mat-card>
+        <div class="prodimgs" (click)="ToProdDet('products',products.id)">
+            <img [src]="products.imagePath" alt="">
+        </div>
+        <div class="name" (click)="ToProdDet('products',products.id)">
+              {{products.name}}<br> Category: {{products.category}}<br>{{products.price}} Rs
+        </div>
+        <div class="rating">
+              {{products.rating}}
+              <app-rating 
+              [SelectedStar]="products.rating"
+              [readonly]="true">
+              </app-rating>
+        </div>
+        <div class="cartbtn">
+            <button [routerLink]="['/cart']" class="ctbtn" (click)="addtoCart(products)">Add to Cart</button>
+        </div>
+        </mat-card>
+    
+</div>
+</div>

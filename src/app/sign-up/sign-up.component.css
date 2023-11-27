@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.signupform{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, #0E197D 0%,#FFDB01 100%);
+    position: relative;
+}
+
+mat-card{
+    width: 500px;
+    height: 550px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 100px;
+    right: 500px;
+    box-shadow: 5px 5px 20px #383838;
+}
+
+.form-container mat-form-field{
+    width: 100%;
+    justify-content: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.margin-top{
+    margin-top: 16px;
+}
+
+.text-center{
+    text-align: center;
+}
+button{
+    background-color: #0E197D;
+    box-shadow: 5px 5px 5px #383838;
+    padding: 8px;
+    color: #FFDB01;
+    border-radius: 3px;
+    width: 20%;
+}
+mat-card{
+    height: 550px;
+    width: 500px;
+   
+}
+h2{
+   margin-left: 85px;
+}
+@media only screen and (max-width: 768px) {
+    mat-card {
+        max-width: 90%; /* Adjust the maximum width for smaller screens */
+        right: 5%;
+        transform: none; /* Remove the horizontal translation for smaller screens */
+    }
+}

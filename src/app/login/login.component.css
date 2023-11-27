@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.login-container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, #0E197D 0%,#FFDB01 100%);
+    position: relative;
+}
+.logo{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Creepster',cursive;
+    letter-spacing: 10px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+.desc{
+    font-size: 28px;
+    font-family: 'Aladin',cursive;
+    letter-spacing: 3px;
+    line-height: 45px;
+    position: absolute;
+    top: 130px;
+    right: 20px;
+    text-align: right;
+    width: 1000px;
+    
+}
+.main{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 462px;
+    height: 400px;
+   
+}
+.secmain{
+    position: relative;
+    top: 350px;
+    left: 10px;
+    width: 300px;
+    height: 300px;
+    opacity: 0.8;
+}
+.thmain{
+    position: relative;
+    top: 400px;
+    left: 20px;
+    width: 300px;
+    height: 300px;
+    opacity: 0.6;
+}
+.login-form{
+    width: 500px;
+    height: 380px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 28px;
+    right: 80px;
+    box-shadow: 5px 5px 20px #383838;
+}
+
+.form-container mat-form-field{
+    width: 100%;
+    justify-content: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.margin-top{
+    margin-top: 16px;
+}
+
+.text-center{
+    text-align: center;
+}
+button{
+    background-color: #0E197D;
+    box-shadow: 5px 5px 5px #383838;
+    padding: 8px;
+    color: #FFDB01;
+    border-radius: 3px;
+    width: 20%;
+}

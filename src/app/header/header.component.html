@@ -1,0 +1,33 @@
+
+<div class="header-container">
+    <div class="navs">
+     <span class="logo" (click)="goToHome()">FineHomeCare</span>
+     <div class="spacer">
+     <li><a [routerLink]="['/allprods']">Home Decors and Furnitures</a></li>
+    <!--<li><a (click)="logout()">Logout</a></li>--> 
+      <li *ngIf="auth.currentUser$ | async as user">
+         <button class="user" [matMenuTriggerFor]="userMenu"><mat-icon>account_circle</mat-icon><br>{{ user.displayName }}<mat-icon>expand_more</mat-icon>
+      </button></li>
+    </div>
+    </div>
+ </div>
+ <mat-menu #userMenu="matMenu">
+   <button mat-menu-item (click)="logout()">logout</button>
+ </mat-menu>
+
+ <div class="left-sidebar"></div>
+ <div class="row">
+    <div class="left-col">
+        <img src="assets/home.jpeg">
+    </div>
+    <div class="right-col">
+       <h1 id="H">Explore the home<br></h1> <h1>to make your home!</h1>
+       <p>This is the home page of FineHomeCare...You can explore all
+        the products for your home from here
+       </p>
+    </div>
+ </div>
+
+ 
+
+

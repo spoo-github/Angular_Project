@@ -1,0 +1,118 @@
+
+<div class="header-container">
+    <div class="navs">
+     <span class="logo" (click)="goToHome()">FineHomeCare</span>
+     <div class="spacer">
+      <li><a [routerLink]="['/allprods']">Home Decors and Furnitures</a></li> 
+      <li><a (click)="logout()">Logout</a></li>
+     </div>
+    </div>
+ </div>
+
+
+ <div class="prods-container" (click)="ToProdDet('products',products.id)">
+    <div class="top">
+        <div class="left">
+           <div class="name">{{ product?.name }}</div>
+           
+           <div class="rating">Product Rating: 
+            <span class="rat-val">{{product?.rating}}</span><br>
+                     <app-rating 
+                      [SelectedStar]="product.rating"
+                      [readonly]="true"
+                      (onRating)="onRatingChange($event)">
+                     </app-rating>
+           </div>
+           <mat-card>
+           <div class="imagePath">
+            <div class="price">Product Price: {{ product?.price }}</div>
+            <img [src]="product?.imagePath" alt="" appImageHover>
+            <div class="desc">{{ product?.desc }}</div>
+            
+           </div>
+           </mat-card>
+        </div>
+        
+            <div class="right">
+                <div class="title">About this product</div>
+                <div class="rating-form" >
+                    <mat-card class="descmat">
+                    <div  class="fulldesc">
+                        <div>
+                            <p>{{product?.fulldesc}}</p>
+                        </div>
+                    </div>
+                </mat-card>
+                <div class="cartbtn">
+                    <button [routerLink]="['/cart']" class="btn" (click)="addtoCart(product)">Add to Cart</button>
+                </div>
+                </div>
+                <div class="mat-cardcontainer">
+                    <mat-card class="spl">
+                        <h4 id="Hh">Material type:</h4>
+                        <h4 id="HH">{{product?.type}}</h4>
+                    </mat-card>
+                    <mat-card class="spl">
+                        <h4 id="Hh">Product size:</h4>
+                        <h4 id="HH">{{product?.size}}</h4>
+                    </mat-card>
+                    <mat-card class="spl">
+                        <h4 id="Hh">Product size:</h4>
+                        <h4 id="HH">{{product?.roomtype}}</h4>
+                    </mat-card>
+                   </div>
+            </div>  
+       
+    </div>
+ <!-- <div class="bottom">
+     <h4 class="title">Reviews</h4>
+     <div class="reviews">
+        <div class="review" *ngFor="let review of product?.reviews">
+            <div class="review-details">          
+                <div class="review-left">
+                    <div class="review-text">Name: {{ review.custname }}  <br> Review:{{ review.review}}
+                    </div>
+                </div>
+                <br>
+                <div class="rating">
+                    <app-rating
+                    (onRating)="Handle($event)"
+                    [SelectedStar]="4"
+                    [readonly]="true">
+                    </app-rating>
+                </div>
+            </div><br>
+        </div>
+     </div>
+     <div class="reviews"  *ngIf="product?.review?.length == 0">
+        <div class="no-reviews">No reviews yet</div>
+     </div>
+    </div>
+    <div class="bottom">
+        <div class="dims">
+          
+        </div>
+        <div class="reviews">
+            <div class="review" *ngFor="let review of product?.reviews">
+                  <app-reviews></app-reviews>
+            </div>
+</div>
+</div>-->
+<div class="comment-container">
+    <div class="comment-box">
+      <h3>Add a Comment</h3>
+      <textarea [(ngModel)]="newComment" placeholder="Type your comment here along with your name"></textarea><br><br>
+      <button class="comment-button" (click)="addComment()">Submit</button>
+    </div>
+
+    <div class="comments">
+      <h3>Comments</h3>
+      <ul>
+        <li *ngFor="let comment of productComments">{{ comment }}</li>
+      </ul>
+    </div>
+   
+  </div>
+<app-footer></app-footer>
+</div>
+

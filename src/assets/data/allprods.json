@@ -1,0 +1,136 @@
+[
+    {
+        "id":1,
+        "imagePath":"https://i5.walmartimages.com/asr/7b469d88-5322-4096-994f-bfd4dc4c7f02_1.7a1b1875146bb93a0e04c064ec36d0ee.jpeg",
+        "name":"Small Sized Furniture",
+        "rating":3,
+        "price":15000,
+        "size":"",
+        "fulldesc":"Small spaces don't always offer enough storage or floor space to live comfortably, but even the tiniest apartments can feel roomy with the right space-saving furniture. From micro-loft apartments to tiny homes, small spaces create opportunities for a streamlined, minimalist approach to your home's design and decor.",
+        "category":"Furniture",
+        "desc":"This furniture saves the space and can be used for small home spaces",
+        "reviews":["Elegant and so unique"]
+    },
+    {
+        "id":2,
+        "imagePath":"https://th.bing.com/th/id/R.f9f56f839dcd6b1ab03f08051ab65f85?rik=21eqtFfBPciOWQ&riu=http%3a%2f%2fdesignlike.com%2fwp-content%2fuploads%2f2015%2f06%2fmultifunctional-furniture.jpg&ehk=9CsiXFjdyBPLibQ6ZlKHuka7V5J%2fpEkOSU9f17y4M%2fg%3d&risl=&pid=ImgRaw&r=0",
+        "name":"Multifunctional bed",
+        "rating":4.5,
+        "price":40000,
+        "fulldesc":"A bed frame can easily serve multiple purposes with added storage options. The purpose of multifunctional furniture Today's multipurpose sofas, beds and seating are used for more than just saving space. While these pieces are ideal for smaller apartments and rooms that are tight on space, they also tend to be a more sustainable decor option",
+        "category":"Furniture",
+        "desc":"Multi functional furniture that fits enormous amount of space and best for studio apartments",
+        "reviews":["Perfect for a dinner night!"]
+    },
+    {
+        "id":3,
+        "imagePath":"https://www.woodworkfurniture.co.th/wp-content/uploads/2020/10/4-loose-furniture-products__10.jpg",
+        "name":"Small dining table",
+        "rating":4.6,
+        "category":"Furniture",
+        "fulldesc":"Living in a small space doesn't mean you have to miss out on eating meals at a dining table. You don't have to give up on hosting intimate dinner parties, either: There are plenty of extendable and drop-leaf dining tables available that make it easier to entertain. Even if you don't need a table that allows you to double the surface space when you have guests over, there are some design tips and tricks to help you choose a compact table that fits in apartments and small homes.",
+        "price":10000,
+        "desc": "Small dining table is best for the small home spaces and can fit in anywhere",
+        "reviews":[""]
+    },
+    {
+        "id":4,
+        "imagePath":"https://i.pinimg.com/originals/1c/ef/63/1cef637d1400a16d7294c62bc1530e63.jpg",
+        "name":"Wall paintings",
+        "rating":4.6,
+        "price":3000,
+        "fulldesc":"When selecting wall painting for living room, acquire larger and bolder pieces, especially if you're freshening up a vast blank wall. Use it with other showpieces to create a dynamic appearance. A museum-style arrangement of smaller items works well for walls broken up by windows or doors.",
+        "category":"Home Decor",
+        "desc":"Wall paintings or wall arts give an ultimate look to the walls of your house and also gives an amazing perspective to a viewer",
+        "reviews":["Beautiful art painting"]
+    },
+    {
+        "id":5,
+        "imagePath":"https://i.pinimg.com/originals/03/19/fb/0319fb1cb7e77fec4c334a818cd6ec11.jpg",
+        "name":"Country Furniture",
+        "rating":4.8,
+        "category":"Furniture",
+        "fulldesc":"Country furniture, furniture made by country craftsmen, varying from purely functional pieces made by amateurs to expertly constructed and carved work based on luxurious furniture made for the rich. Much country furniture is naive, with the best of such examples falling into the category of folk art. The furniture is sturdy, rarely delicate in design or workmanship, and restricted in its types. Decoration may be confined to turning (shaping on a lathe), low-relief carving, or painting. More sophisticated decoration such as marquetry or gilding is not found on this type of furniture. Country furniture bore many of the same characteristics for centuries, for styles changed slowly and lingered long after they had been dropped in fashionable furniture. ",
+        "price": 30999  ,
+        "desc":"Northwest Native Designs offers custom designed leather furniture, handmade with exceptional quality. ",
+        "reviews":["Definitely a good product"]
+    },
+    {
+        "id":6,
+        "imagePath":"https://i.pinimg.com/originals/f9/e3/a2/f9e3a286a3f9f609080f9e8db3af3322.jpg",
+        "name":"Rustic Furniture",
+        "rating":4.3,
+        "category":"Furniture",
+        "fulldesc":"Rustic is thrown out there to describe everything from farmhouse decor to a Tuscan-style estate, so what does it actually mean? Do you need to live in a legit log cabin to be considered rustic, or can one word apply so liberally to so many different design styles? It's definitely the latter, but there are several components you need to have for something to accurately be rustic.",
+        "price": 12999 ,
+        "desc":"Rustic furniture gives modern as well as country side look to your home",
+        "reviews":["Affordable"]
+    },
+    {
+        "id":7,
+        "imagePath":"https://mydecorative.com/wp-content/uploads/2013/11/versatile-brass-accents.jpg",
+        "name":"Versatile Brass Accents",
+        "rating":4.3,
+        "price":10000,
+        "fulldesc":"Brass is one of the modern interior design trends of 2021. Brass accents are a perfect way to change light room decorating for cozy and warm. Experts show how to use brass in home interiors, adding warmth, style, and elegance and reflecting the beautiful interior design trends. Polished brass compliments colorful, bright interior designs and can add a bit of glamor to room decorating that utilizes neutral colors. Antique brass is excellent for a more settled-in, classy, elegant look.",
+        "category":"Home Decor",
+        "desc": " Brass accents which you can use to décor your home and make your home look versatile and stylish.",
+        "reviews":["Nice product"]
+    },
+    {
+        "id":8,
+        "imagePath":"https://th.bing.com/th/id/OIP.zG0EVdAITNV1yp_MnoLqtQHaJP?pid=ImgDet&rs=1",
+        "name":"Plants",
+        "rating":4,
+        "price":4000,
+        "fulldesc":"Now that we have established that decorating with plants is good for your home, it’s important to know that not all plants can survive indoors. Unless you want to do plenty of moving around and maintenance, stick with this list of plants for lazy people. It includes indoor plants decoration ideas featuring the versatile palm, the unpretentious syngonium and the all-time favourite pothos!If you’re wondering where to use these plant decoration ideas, you’ve come to the right place. One of the most common areas is undoubtedly the living room, where we interact with family and guests. Therefore, this makes it an ideal place to experiment with living room plants decoration ideas",
+        "category":"Home Decor",
+        "desc":"Plant decors for home balconies or any corners at your home which you can diy",
+        "reviews":["Good one!"]
+    },
+    {
+        "id":9,
+        "imagePath":"https://i.pinimg.com/originals/b4/9d/9d/b49d9d6ed16774b75ec8fe5ead96164d.jpg",
+        "name":"Rustic Decor",
+        "rating":4,
+        "price":7000,
+        "fulldesc":"Rustic decor also feels completely unpretentious or stuffy. It's a type of design that is incredibly approachable and relaxed. It should feel welcoming and easy, with a color palette that's calming and traditional. Natural, neutral colors such as beiges, whites, browns, and grays are all key, but opt for the warmer tints. You won't find many splashes of bold paint in a rustic home, so keep it monochrome and muted. ",
+        "category":"Home Decor",
+        "desc":"Rustic home decors gives an ultimate country side touch to your home which is of course unique and well cherished",
+        "reviews":["Good one!"]
+    },
+    {
+        "id":10,
+        "imagePath":"https://gotohomerepair.com/wp-content/uploads/2017/08/hang-em-up-ikea-hackers-ikea-hackers-inside-hanging-glass-shelves-from-ceiling.jpg",
+        "name":"Hanging Shelves",
+        "rating":4,
+        "price":35000,
+        "fulldesc":"Is bland, run-of-the-mill shelving not quite doing it for you anymore? Let us introduce you to something truly special: ceiling hanging shelves. Whether they’re suspended from the ceiling or mounted to the wall, hanging shelves add something a little bit different to your space. Reminiscent of New York apartments, these dramatic shelves don’t just save you heaps of space – they act as a centrepiece for your room’s décor. This is where storage meets undeniable style. So – what kind of hanging shelf are you looking for? And more importantly, where do you want to put it? From styling tips to mounting instructions, here’s everything you need to know about ceiling hanging shelves",
+        "category":"Home Decor",
+        "desc":"Hanging Shelves are one of the most modern, and space saving option for small home spaces and will also give great outlook as a home decor",
+        "reviews":["Good one!"]
+    },
+    {
+        "id":11,
+        "imagePath":"https://www.finished.ie/wp-content/uploads/2018/06/ceiling-hanging-500x500.jpg",
+        "name":"Dining Table",
+        "rating":4,
+        "price":50000,
+        "fulldesc":"Living in a small space doesn't mean you have to miss out on eating meals at a dining table. You don't have to give up on hosting intimate dinner parties, either: There are plenty of extendable and drop-leaf dining tables available that make it easier to entertain. Even if you don't need a table that allows you to double the surface space when you have guests over, there are some design tips and tricks to help you choose a compact table that fits in apartments and small homes.",
+        "category":"Furniture",
+        "desc":"A tiny dining table is one of the better option for your home as it saves the space and can fit in any corner",
+        "reviews":["Best option for small space"]
+    },
+    {
+        "id":12,
+        "imagePath":"https://i5.walmartimages.com/asr/dd1feb8e-cadc-4dea-8605-36b2e388f499.e236d560ce3a7b48b213bbb13ed8789e.jpeg",
+        "name":"Dining Table",
+        "rating":4,
+        "price":45000,
+        "fulldesc":"",
+        "category":"Furniture",
+        "desc":"An indoor or outdoor dining is the furniture which can be kept in or out of your house to have a peaceful dinner",
+        "reviews":["Good one!"]
+    }
+
+]
